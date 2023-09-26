@@ -1,0 +1,32 @@
+fun main() {
+    var y:Int=10
+    var b:Int=20
+    var c:Int=30
+    var d:Int=40
+    var x:Int=2
+    var f:Int=9
+    c=y+b
+    d=b+c+y
+    
+    if(b>10){
+        f=x+d+c
+        println ("resultado de f $f")      
+    }
+     x=f
+     x=x-b
+     if(x<10){
+         y=x*x
+         print("resultado de y $y")
+      }
+     d=x*y
+     println("o resultado de c é $c")
+     if(c<30){
+        println("fim do programa") 
+     }else{
+         x=c+b
+         println("resultado de x é $x")
+     } 
+     
+        
+    
+}
